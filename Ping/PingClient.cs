@@ -47,8 +47,17 @@ namespace Ping
 
             channel.BasicConsume(consumer: consumer, queue: pongQueueName, autoAck: true);
 
+            int waitingIntervals = 10;
+            int numberOfRetries = 0;
             while (string.IsNullOrEmpty(pongMessage))
             {
+                if (numberOfRetries == waitingIntervals)
+                {
+                    pongMessage = "Tiempo de espera agotado";
+                    break;
+                }
+
+                numberOfRetries++;
                 Thread.Sleep(1000);
             }
             

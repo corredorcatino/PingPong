@@ -13,7 +13,6 @@ namespace Ping.Controllers
             var pingClient = new PingClient();
 
             var pongMessage = pingClient.Call();
-            Console.WriteLine(pongMessage);
             pingClient.Close();
 
             return new ObjectResult(pongMessage);
