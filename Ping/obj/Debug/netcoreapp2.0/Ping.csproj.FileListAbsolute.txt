@@ -1,0 +1,10 @@
+D:\Marcos y Patrones\PingPong\Ping\bin\Debug\netcoreapp2.0\Ping.deps.json
+D:\Marcos y Patrones\PingPong\Ping\bin\Debug\netcoreapp2.0\Ping.runtimeconfig.json
+D:\Marcos y Patrones\PingPong\Ping\bin\Debug\netcoreapp2.0\Ping.runtimeconfig.dev.json
+D:\Marcos y Patrones\PingPong\Ping\bin\Debug\netcoreapp2.0\Ping.dll
+D:\Marcos y Patrones\PingPong\Ping\bin\Debug\netcoreapp2.0\Ping.pdb
+D:\Marcos y Patrones\PingPong\Ping\obj\Debug\netcoreapp2.0\Ping.csproj.CoreCompileInputs.cache
+D:\Marcos y Patrones\PingPong\Ping\obj\Debug\netcoreapp2.0\Ping.AssemblyInfoInputs.cache
+D:\Marcos y Patrones\PingPong\Ping\obj\Debug\netcoreapp2.0\Ping.AssemblyInfo.cs
+D:\Marcos y Patrones\PingPong\Ping\obj\Debug\netcoreapp2.0\Ping.dll
+D:\Marcos y Patrones\PingPong\Ping\obj\Debug\netcoreapp2.0\Ping.pdb

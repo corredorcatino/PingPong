@@ -1,0 +1,10 @@
+D:\Marcos y Patrones\PingPong\PongConsole\bin\Debug\netcoreapp2.0\PongConsole.deps.json
+D:\Marcos y Patrones\PingPong\PongConsole\bin\Debug\netcoreapp2.0\PongConsole.runtimeconfig.json
+D:\Marcos y Patrones\PingPong\PongConsole\bin\Debug\netcoreapp2.0\PongConsole.runtimeconfig.dev.json
+D:\Marcos y Patrones\PingPong\PongConsole\bin\Debug\netcoreapp2.0\PongConsole.dll
+D:\Marcos y Patrones\PingPong\PongConsole\bin\Debug\netcoreapp2.0\PongConsole.pdb
+D:\Marcos y Patrones\PingPong\PongConsole\obj\Debug\netcoreapp2.0\PongConsole.csproj.CoreCompileInputs.cache
+D:\Marcos y Patrones\PingPong\PongConsole\obj\Debug\netcoreapp2.0\PongConsole.AssemblyInfoInputs.cache
+D:\Marcos y Patrones\PingPong\PongConsole\obj\Debug\netcoreapp2.0\PongConsole.AssemblyInfo.cs
+D:\Marcos y Patrones\PingPong\PongConsole\obj\Debug\netcoreapp2.0\PongConsole.dll
+D:\Marcos y Patrones\PingPong\PongConsole\obj\Debug\netcoreapp2.0\PongConsole.pdb
