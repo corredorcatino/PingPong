@@ -1,5 +1,6 @@
 using System;
 using System.Text;
+using System.Threading;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -46,6 +47,11 @@ namespace Ping
 
             channel.BasicConsume(consumer: consumer, queue: pongQueueName, autoAck: true);
 
+            while (string.IsNullOrEmpty(pongMessage))
+            {
+                Thread.Sleep(1000);
+            }
+            
             return pongMessage;
         }
 

@@ -8,7 +8,7 @@ namespace Ping.Controllers
     public class PingMessageController : Controller
     {
         [HttpPost]
-        public IActionResult Post([FromBody]string value)
+        public IActionResult Post()
         {
             var pingClient = new PingClient();
 
