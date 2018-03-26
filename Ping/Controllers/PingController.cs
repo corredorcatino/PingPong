@@ -8,14 +8,15 @@ namespace Ping.Controllers
     public class PingMessageController : Controller
     {
         [HttpPost]
-        public IActionResult Post()
+        public async Task<IActionResult> Post()
         {
-            var pingClient = new PingClient();
+            Console.WriteLine("PingMessageController");
+            var pingMessageClient = new PingMessageClient();
 
-            var pongMessage = pingClient.Call();
-            pingClient.Close();
+            var response = await pingMessageClient.SendPingMessage();
+            pingMessageClient.Close();
 
-            return new ObjectResult(pongMessage);
+            return new ObjectResult(response);
         }
     }
 }
